@@ -30,6 +30,7 @@
 }
 .addres {
   height: 50px;
+  margin-top: 15px;
 }
 .add-1 {
   color: #cccccc;
@@ -47,7 +48,6 @@
 }
 .nav-search {
   display: flex;
-  /* gap: 5px; */
   justify-content: space-evenly;
   width: 620px;
   height: 40px;
@@ -57,6 +57,7 @@
 .select-input {
   width: 100%;
   font-size: 1rem;
+  padding: 7px 10px 10px 0;
   border: none;
 }
 
@@ -69,7 +70,7 @@
   text-align: center;
   border: none;
 }
-.select-list:hover{
+.select-list:hover {
   background-color: #f3f3f3b2;
 }
 .search-btn {
@@ -94,7 +95,7 @@
   width: 30px;
   height: 20px;
 }
-span.hello{
+span.hello {
   font-size: 12px;
   font-weight: 400;
 }
@@ -102,18 +103,93 @@ span.hello{
   font-size: 14px;
   font-weight: 700;
 }
-.nav-search:hover{
+.nav-search:hover {
   border: 2px solid orange;
 }
-.nav-cart i{
+.nav-cart i {
   font-size: 30px;
 }
-.nav-cart{
+.nav-cart {
   font-size: 0.85rem;
   display: flex;
   justify-content: center;
   align-items: baseline;
 }
-.cart{
- font-weight: 700;
+.cart {
+  font-weight: 700;
+}
+.panel {
+  display: flex;
+  height: 40px;
+  background-color: #222f2d;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.all {
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.panel-opts {
+  width: 80%;
+}
+.panel-opts a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.hero-section {
+  background-image: url("hero_image.jpg");
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-text {
+  background-color: #f5f6f6;
+  font-size: 14px;
+  color: #0f1111;
+  padding: 10px 14px;
+  height: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #2162a1;
+}
+
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+.box {
+  width: 23%;
+  height: 400px;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box1-img {
+  margin-top: 1rem;
+  height: 340px;
+  margin-bottom: 1rem;
+  background-size: cover;
+}
+.shop-now {
+  text-decoration: none;
+  color: #2162a1;
 }
