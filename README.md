@@ -1,2 +1,3 @@
 # AmazonClone
-This project is a static frontend replica of Amazon’s homepage, crafted using only HTML and CSS. It focuses on replicating the visual layout and design elements of Amazon’s interface, without incorporating responsiveness or interactivity.
+AmazonClone is a static frontend replica of Amazon’s homepage, built exclusively with HTML and CSS. The project emphasizes visual accuracy by recreating Amazon’s layout and design elements, while intentionally omitting responsiveness and dynamic functionality to focus on foundational frontend skills.
+
